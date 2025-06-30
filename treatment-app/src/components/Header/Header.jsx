@@ -1,6 +1,6 @@
 import React from "react";
 
-const COMPANY_NAME = process.env.REACT_APP_COMPANY_NAME || "hims";
+const COMPANY_NAME = process.env.REACT_APP_COMPANY_NAME || "Roghar";
 
 const Header = () => {
   return (
@@ -9,7 +9,7 @@ const Header = () => {
         <div className="flex items-center space-x-8">
           <h1 className="text-2xl font-bold text-gray-900">{COMPANY_NAME}</h1>
         </div>
-        <div className="flex items-center space-x-4">
+        {/* <div className="flex items-center space-x-4">
           <button className="text-gray-600 hover:text-gray-900">Log in</button>
           <button className="p-2">
             <svg
@@ -26,7 +26,7 @@ const Header = () => {
               />
             </svg>
           </button>
-        </div>
+        </div> */}
       </div>
     </header>
   );

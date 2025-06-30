@@ -225,6 +225,196 @@ const packageDetailsData = {
         ],
       },
     },
+    "Fitness, Hair & Skin": {
+      "Obese/Overweight Panel": {
+        title: "Obese / Overweight Male Panel",
+        description:
+          "Purpose: Fat loss, hormone check, thyroid/dietary imbalance.",
+        price: "₹2499",
+        tests: [
+          {
+            name: "Fasting Blood Sugar & HbA1c",
+            description: "Checks for diabetes and blood sugar control.",
+          },
+          {
+            name: "Lipid Profile",
+            description: "Assesses cholesterol and fat metabolism.",
+          },
+          { name: "TSH", description: "Screens for thyroid imbalance." },
+          {
+            name: "Testosterone (Total & Free)",
+            description: "Evaluates male hormone status.",
+          },
+          {
+            name: "Liver Function Test",
+            description: "Checks liver health, important for metabolism.",
+          },
+          {
+            name: "Vitamin D3, B12",
+            description: "Detects common deficiencies affecting metabolism.",
+          },
+          {
+            name: "Insulin (Fasting)",
+            description: "Assesses insulin resistance and fat loss barriers.",
+          },
+        ],
+        benefits: [
+          "Helps identify metabolic or hormonal barriers to fat loss.",
+        ],
+      },
+      "Very Thin/Weak Male Panel": {
+        title: "Very Thin / Weak Male Panel",
+        description: "Purpose: Mass gain, energy deficit, hormonal weakness.",
+        price: "₹2499",
+        tests: [
+          {
+            name: "CBC",
+            description: "Detects anemia or infection affecting energy.",
+          },
+          {
+            name: "Testosterone (Total)",
+            description: "Checks for hormonal weakness.",
+          },
+          {
+            name: "DHEAS, SHBG",
+            description: "Assesses adrenal and binding hormone status.",
+          },
+          {
+            name: "Ferritin & Iron Profile",
+            description: "Detects iron deficiency affecting strength.",
+          },
+          {
+            name: "Vitamin D3 & B12",
+            description: "Checks for nutrient deficiencies.",
+          },
+          { name: "TSH", description: "Screens for thyroid issues." },
+          {
+            name: "Cortisol (AM)",
+            description: "Assesses stress hormone impact on weight.",
+          },
+        ],
+        benefits: [
+          "Detects hormonal or nutrient deficiencies hindering weight gain.",
+        ],
+      },
+      "Muscle Building/Strength Panel": {
+        title: "Muscle Building / Strength Male Panel",
+        description: "Purpose: Bodybuilders & gym athletes.",
+        price: "₹2999",
+        tests: [
+          {
+            name: "Testosterone (Total & Free)",
+            description: "Key anabolic hormone for muscle growth.",
+          },
+          {
+            name: "LH, FSH",
+            description: "Regulates testicular hormone production.",
+          },
+          {
+            name: "Creatine Kinase",
+            description: "Monitors muscle breakdown and overtraining.",
+          },
+          {
+            name: "Cortisol",
+            description: "Stress hormone, high levels hinder muscle gain.",
+          },
+          { name: "DHEAS", description: "Supports muscle and energy." },
+          {
+            name: "CRP",
+            description: "Inflammation marker, checks for overtraining.",
+          },
+          {
+            name: "Vitamin D3",
+            description: "Supports muscle and bone health.",
+          },
+          {
+            name: "Electrolytes",
+            description: "Essential for muscle contraction.",
+          },
+          { name: "LFT", description: "Liver health for metabolism." },
+        ],
+        benefits: ["Monitors anabolic-hormonal levels & overtraining risk."],
+      },
+      "AOD-on Goal-Based Panel": {
+        title: "Add-On Goal-Based Panels (For All Genders)",
+        description: "Purpose: Custom panels for specific fitness goals.",
+        price: "₹1499+",
+        tests: [
+          {
+            name: "Muscle Gain",
+            description: "Creatine Kinase, Testosterone, CK-MM",
+          },
+          { name: "Fat Loss", description: "Insulin, Cortisol, SHBG" },
+          {
+            name: "Vegan Deficiency",
+            description: "Iron, Ferritin, Calcium, B12, D3",
+          },
+          {
+            name: "Recovery/Fatigue",
+            description: "CRP, CK, Cortisol, Magnesium",
+          },
+          { name: "Stress/Sleep", description: "Cortisol, TSH, D3" },
+          {
+            name: "Hair/Skin",
+            description: "DHEAS, Testosterone, Zinc, B12",
+          },
+        ],
+        benefits: [
+          "Customizable panels for muscle gain, fat loss, vegan deficiency, recovery, stress, and hair/skin health.",
+        ],
+      },
+      "Hair Loss & Hair Concern": {
+        title: "Hair Loss / Hair Concerns: Male",
+        description: "Symptoms: Receding hairline, bald patches.",
+        price: "₹1999",
+        tests: [
+          {
+            name: "DHT",
+            description: "Key hormone in male pattern baldness.",
+          },
+          {
+            name: "Testosterone",
+            description: "Hormonal influence on hair loss.",
+          },
+          {
+            name: "Ferritin",
+            description: "Iron stores, low levels cause hair fall.",
+          },
+          {
+            name: "Vitamin D3, B12",
+            description: "Deficiencies linked to hair loss.",
+          },
+          {
+            name: "TSH",
+            description: "Thyroid dysfunction can cause hair loss.",
+          },
+        ],
+        benefits: [
+          "Helps identify hormonal, nutritional, or thyroid causes of hair loss in men.",
+        ],
+      },
+      "Skin & Acne Panel": {
+        title: "Skin & Acne Issues: Male",
+        description: "Symptoms: Oily skin, acne, pigmentation.",
+        price: "₹1999",
+        tests: [
+          {
+            name: "Testosterone",
+            description: "High levels can worsen acne.",
+          },
+          { name: "DHEAS", description: "Adrenal hormone, can affect skin." },
+          { name: "Zinc", description: "Deficiency linked to acne." },
+          { name: "Vitamin D3", description: "Supports skin health." },
+          {
+            name: "Blood Glucose",
+            description: "High sugar can worsen acne.",
+          },
+        ],
+        benefits: [
+          "Identifies hormonal and nutritional causes of skin and acne issues in men.",
+        ],
+      },
+    },
     // ... Add other services here ...
   },
   women: {
@@ -413,6 +603,154 @@ const packageDetailsData = {
         ],
       },
     },
+    "Fitness, Hair & Skin": {
+      "Obese/Overweight Panel": {
+        title: "Obese / Overweight Female Panel",
+        description: "Purpose: Fat loss, PCOS screening, metabolic balance.",
+        price: "₹2499",
+        tests: [
+          {
+            name: "Fasting Blood Sugar, HbA1c, Lipid Profile",
+            description: "Checks for diabetes and cholesterol issues.",
+          },
+          {
+            name: "TSH, Insulin",
+            description: "Screens for thyroid and insulin resistance.",
+          },
+          {
+            name: "Testosterone, DHEAS",
+            description: "Evaluates androgen excess (PCOS).",
+          },
+          {
+            name: "LH, FSH, Prolactin",
+            description: "Hormonal balance and PCOS screening.",
+          },
+          {
+            name: "Vitamin D3, B12, Ferritin",
+            description: "Detects common deficiencies affecting metabolism.",
+          },
+        ],
+        benefits: [
+          "Checks for PCOS or insulin resistance that may affect weight loss.",
+        ],
+      },
+      "Very Thin/Weak Male Panel": {
+        title: "Very Thin / Weak Female Panel",
+        description: "Purpose: Nutritional deficiency & energy restoration.",
+        price: "₹2499",
+        tests: [
+          {
+            name: "CBC, TSH, Estrogen, FSH, LH",
+            description: "Screens for anemia and hormonal weakness.",
+          },
+          {
+            name: "Iron Profile, Ferritin",
+            description: "Detects iron deficiency.",
+          },
+          {
+            name: "Vitamin D3 & B12, Cortisol",
+            description: "Checks for nutrient and stress hormone issues.",
+          },
+        ],
+        benefits: [
+          "Assesses anemia, hormonal weakness & nutritional deficits.",
+        ],
+      },
+      "Toning/Lean Muscle Gain Female Panel": {
+        title: "Toning / Lean Muscle Gain Female Panel",
+        description: "Purpose: Lean fitness or athletic tone.",
+        price: "₹2999",
+        tests: [
+          {
+            name: "Estrogen, LH, FSH, Testosterone",
+            description: "Hormonal support for muscle tone.",
+          },
+          {
+            name: "Vitamin D3, B12, Ferritin, Creatinine",
+            description: "Nutritional and muscle health markers.",
+          },
+          {
+            name: "CRP, Electrolytes",
+            description: "Inflammation and hydration status.",
+          },
+        ],
+        benefits: ["Reviews nutrition, inflammation, and lean muscle markers."],
+      },
+      "AOD-on Goal-Based Panel": {
+        title: "Add-On Goal-Based Panels (For All Genders)",
+        description: "Purpose: Custom panels for specific fitness goals.",
+        price: "₹1499+",
+        tests: [
+          {
+            name: "Muscle Gain",
+            description: "Creatine Kinase, Testosterone, CK-MM",
+          },
+          { name: "Fat Loss", description: "Insulin, Cortisol, SHBG" },
+          {
+            name: "Vegan Deficiency",
+            description: "Iron, Ferritin, Calcium, B12, D3",
+          },
+          {
+            name: "Recovery/Fatigue",
+            description: "CRP, CK, Cortisol, Magnesium",
+          },
+          { name: "Stress/Sleep", description: "Cortisol, TSH, D3" },
+          {
+            name: "Hair/Skin",
+            description: "DHEAS, Testosterone, Zinc, B12",
+          },
+        ],
+        benefits: [
+          "Customizable panels for muscle gain, fat loss, vegan deficiency, recovery, stress, and hair/skin health.",
+        ],
+      },
+      "Hair Loss & Hair Concern": {
+        title: "Hair Loss / Hair Concerns: Female",
+        description: "Symptoms: Excessive hair fall, thinning hair.",
+        price: "₹1999",
+        tests: [
+          {
+            name: "Ferritin",
+            description: "Iron stores, low levels cause hair fall.",
+          },
+          { name: "DHEAS", description: "Adrenal hormone, can affect hair." },
+          {
+            name: "TSH",
+            description: "Thyroid dysfunction can cause hair loss.",
+          },
+          {
+            name: "Vitamin B12/D3",
+            description: "Deficiencies linked to hair loss.",
+          },
+          {
+            name: "ANA (if autoimmune)",
+            description: "Screens for autoimmune hair loss.",
+          },
+        ],
+        benefits: [
+          "Helps identify hormonal, nutritional, or autoimmune causes of hair loss in women.",
+        ],
+      },
+      "Skin & Acne Panel": {
+        title: "Skin & Acne Issues: Female",
+        description: "Symptoms: Acne, melasma, dry or pigmented skin.",
+        price: "₹1999",
+        tests: [
+          {
+            name: "Testosterone, LH, FSH, TSH",
+            description: "Hormonal causes of skin issues.",
+          },
+          {
+            name: "Vitamin D3/B12, Iron",
+            description: "Nutritional deficiencies affecting skin.",
+          },
+          { name: "Blood Sugar", description: "High sugar can worsen acne." },
+        ],
+        benefits: [
+          "Identifies hormonal and nutritional causes of skin and acne issues in women.",
+        ],
+      },
+    },
     // ... Add other services here ...
   },
 };
@@ -422,6 +760,7 @@ const PackageDetails = () => {
   const navigate = useNavigate();
   const decodedService = decodeURIComponent(service);
   const decodedPackageName = decodeURIComponent(packageName);
+  console.log(category, service, packageName);
   const selectedPackage =
     packageDetailsData[category]?.[decodedService]?.[decodedPackageName];
 

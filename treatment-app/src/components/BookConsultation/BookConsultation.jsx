@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 
-const BookConsultation = () => {
+const BookConsultation = ({ open, onClose, isPersonalAppointment }) => {
   const { treatmentName } = useParams();
   const [form, setForm] = useState({
     name: "",
@@ -11,6 +11,7 @@ const BookConsultation = () => {
     preferredTime: "",
     symptoms: "",
     treatment: treatmentName ? decodeURIComponent(treatmentName) : "",
+    treatmentFor: "",
   });
   const [submitted, setSubmitted] = useState(false);
   const navigate = useNavigate();
@@ -62,9 +63,27 @@ const BookConsultation = () => {
   return (
     <div className="max-w-xl mx-auto px-4 py-8">
       <h1 className="text-2xl font-bold text-gray-900 mb-2">
-        Book Consultation
+        {isPersonalAppointment
+          ? "Book Personal Appointment"
+          : "Book Consultation"}
       </h1>
       <form onSubmit={handleSubmit} className="space-y-4">
+        {isPersonalAppointment && (
+          <div>
+            <label className="block text-gray-700 font-medium mb-1">
+              Treatment For <span className="text-red-500">*</span>
+            </label>
+            <input
+              type="text"
+              name="treatmentFor"
+              value={form.treatmentFor}
+              onChange={handleChange}
+              required
+              className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-black"
+              placeholder="What do you want treatment for?"
+            />
+          </div>
+        )}
         {form.treatment && (
           <div>
             <label className="block text-gray-700 font-medium mb-1">
